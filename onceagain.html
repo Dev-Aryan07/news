@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Issues Report</title>
+    <style>
+        /* Reset & base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #212529;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffc107;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        article:hover {
+            transform: scale(1.01);
+        }
+
+        article img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        article h2 {
+            color: #343a40;
+            margin-bottom: 10px;
+        }
+
+        article p {
+            margin-bottom: 10px;
+        }
+
+        article a {
+            display: inline-block;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        article a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Urban Infrastructure Challenges</h1>
+        <nav>
+            <ul>
+                <li><a href="#street-lighting">Street Lights</a></li>
+                <li><a href="#potholes">Potholes</a></li>
+                <li><a href="#drainage">Drainage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="street-lighting">
+            <h2>Poor Street Lighting in Gurugram</h2>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.j07NHLlPFKbpjUxKHeBwYAHaEb&pid=Api" alt="Dimly lit street in Gurugram">
+            <p>Gurugram suffers from inadequate street lighting, with 80% of lights either broken or poorly maintained. This endangers lives by increasing crime and traffic accidents during night hours.</p>
+            <a href="https://www.hindustantimes.com/cities/gurugram-news/street-lights-cry-for-attention-in-gurugram-101724697217748.html" target="_blank">Read more</a>
+        </article>
+
+        <article id="potholes">
+            <h2>Pothole Crisis in Bengaluru</h2>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.9ahQFRXJK44aYSdH28azyQHaEH&pid=Api" alt="Pothole-ridden roads in Bengaluru">
+            <p>Bengaluru’s roads are filled with potholes, causing damage to vehicles and risking lives. Citizens have been demanding urgent repairs to avoid recurring accidents and traffic jams.</p>
+            <a href="https://www.reuters.com/world/india/rain-batters-indias-bengaluru-renews-haphazard-expansion-concerns-2024-10-23/" target="_blank">Read more</a>
+        </article>
+
+        <article id="drainage">
+            <h2>Drainage Disaster in Mumbai</h2>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.HSoV47xPG3fa7RsuaPxDFAHaEc&pid=Api" alt="Drainage flooding in Mumbai">
+            <p>Every monsoon, Mumbai faces floods due to an outdated and clogged drainage system. Residents demand immediate modernization to avoid repeat flooding disasters in the city.</p>
+            <a href="https://www.ft.com/content/32e1875a-23d8-48d2-b5c5-ef535b5e6dd2" target="_blank">Read more</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Citizen Voice • Reporting Real Issues</p>
+    </footer>
+</body>
+</html>
